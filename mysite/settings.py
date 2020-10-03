@@ -26,7 +26,7 @@ SECRET_KEY = '2+5!-!taa6^2#uzj911(tqa_3q!r9%j84d75ju)d+_4rebq2a-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['dipankar-blog-app.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['dipankar-shop-app.herokuapp.com', '127.0.0.1']
 
 # Application definition
 
