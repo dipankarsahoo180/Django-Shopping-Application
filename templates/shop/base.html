@@ -9,10 +9,10 @@
 
 </head>
 <body>
-<div id="header">
+<div id="header" class="container">
     <a href="/" class="logo">My shop</a>
 </div>
-<div id="subheader">
+<div id="subheader" class="container">
     <div class="cart">
         {% with total_items=cart|length %}
         {% if cart|length > 0 %}
@@ -27,7 +27,7 @@
         {% endwith %}
     </div>
 </div>
-<div id="content">
+<div id="content" class="container">
     {% block content %}
     {% endblock %}
 </div>
